@@ -39,7 +39,11 @@
 
       <!-- FORM -->
       <div class="observe-fade">
-        <form id="contact-form">
+
+        <form id="contact-form"
+              action="https://formspree.io/f/xojyylkk"
+              method="POST">
+
           <div class="form-group">
             <label class="form-label" for="name">Full name</label>
             <input class="form-input" type="text" id="name" name="name" placeholder="Your name" required>
@@ -51,6 +55,7 @@
           <div class="form-group">
             <label class="form-label" for="org">Organisation</label>
             <input class="form-input" type="text" id="org" name="org" placeholder="Company or school name">
+            <input type="hidden" name="_subject" value="New message from {{name}} of {{org}}" />
           </div>
           <div class="form-group">
             <label class="form-label" for="subject">Enquiry type</label>
@@ -67,6 +72,7 @@
           </div>
           <button type="submit" class="form-submit">Send message</button>
         </form>
+
       </div>
 
       <!-- CONTACT INFO -->
@@ -75,15 +81,11 @@
           <p class="section-label">Direct contact</p>
           <div class="contact-info-item">
             <div class="contact-info-label">Team email</div>
-            <div class="contact-info-val"><a href="mailto:team@rterobotics.org">team@rterobotics.org</a></div>
+            <div class="contact-info-val"><a href="mailto:rterobotics25404@gmail.com">team@rterobotics.org</a></div>
           </div>
           <div class="contact-info-item">
             <div class="contact-info-label">Instagram</div>
-            <div class="contact-info-val"><a href="https://instagram.com/rterobotics" target="_blank" rel="noopener">@rterobotics</a></div>
-          </div>
-          <div class="contact-info-item">
-            <div class="contact-info-label">LinkedIn</div>
-            <div class="contact-info-val"><a href="https://linkedin.com/company/rte-robotics" target="_blank" rel="noopener">RTE Robotics</a></div>
+            <div class="contact-info-val"><a href="https://www.instagram.com/rte_robotics/" target="_blank" rel="noopener">@rterobotics</a></div>
           </div>
           <div class="contact-info-item">
             <div class="contact-info-label">Location</div>
