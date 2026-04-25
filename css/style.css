@@ -425,7 +425,7 @@ nav {
 .sponsor-slot:hover { background: var(--bg3); }
 
 .sponsor-slot img {
-  max-height: 48px;
+  max-height: 1000px;
   width: auto;
   filter: brightness(0) invert(1);
   opacity: 0.5;
